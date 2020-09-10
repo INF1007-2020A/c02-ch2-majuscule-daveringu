@@ -4,7 +4,8 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        lettre=""aa        resultat += lettre
+        
+        resultat += lettre
     return resultat
 
 
