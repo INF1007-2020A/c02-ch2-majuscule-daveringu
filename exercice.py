@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def majuscule(mot):
+    distance_
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
