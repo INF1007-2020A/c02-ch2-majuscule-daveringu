@@ -7,8 +7,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, self.words))
   File "/home/runner/work/c02-ch2-majuscule-daveringu/c02-ch2-majuscule-daveringu/exercice.py", line 8, in majuscule
-    resultat += lettre
-TypeError: must be str, not int
+    resultat += cho(lettre)
+NameError: name 'cho' is not defined
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
