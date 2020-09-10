@@ -4,7 +4,7 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        lettre = ord(lettre)-distance_entre_min
+        lettre = ord(lettre)-distance_entre_min_et
         resultat += lettre
     return resultat
 
